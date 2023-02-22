@@ -1,0 +1,490 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: rgb(241, 243, 199);
+margin: auto;}
+
+/* Header*/
+.caja_header{
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: rgb(12, 25, 55);
+    margin: auto;
+    justify-content: space-between;
+    border-radius:5px;
+
+                        .caja_logo{
+                            width: 20%;
+                         display: flex;
+                            justify-content: center;
+                            margin:auto;
+
+                                    .logona{
+                                        width: 100%;
+                                        transition: transform 2s, width 2s;
+                                        }
+                                    
+                                    .logona:hover {
+                                        width: 200%;
+                                        transform: rotatez(1440deg);
+                                        }
+                        }
+    
+                        .caja_portada{
+                            width: 60%;
+                            display: flex;
+                            justify-content: center;
+                            margin: auto;
+
+                                    .imgportada{
+                                        width:90%
+                                    }
+                        }
+    
+                        .caja_derecha{
+                         width: 20%;
+                         display: flex;
+                         flex-direction: column;
+
+                                    .caja_logoschicos{
+                                       width: 100%;
+                                       height: auto;
+                                       display: flex; 
+                                       justify-content: center;  
+
+                                                        .logo_chico{
+                                                            width: 100%;
+                                                            background-color: rgb(12, 25, 55);
+                                                            display: flex;
+                                                            }
+                                                        
+                                                        .link_logo_chico{
+                                                            width: 33%;
+                                                            display: flex;
+                                                        }
+                            
+                                             }
+                                    .caja_animacion{
+                                       height: auto;
+                                       display: flex;
+                                                       .logos_animacion1 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }
+                                                       
+                                                       .logos_animacion2 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }
+                                                       
+                                                       .logos_animacion3 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }
+                                                       
+                                                       .logos_animacion4 {
+                                                           width:100%;
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                       }    
+                                            }
+                                            
+                                                     
+
+                        }                  
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.separacion{
+    background-image: linear-gradient(to left,rgba(12, 12, 65, 0.612),rgb(140, 169, 236));
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    background-color: rgb(12, 25, 55);
+    height:30px;
+    width: 90%;
+    margin:10px auto;
+    }
+
+form {
+    width: 40%;
+    border-color: aqua;
+    margin: auto;
+  
+    input{ 
+        width: 100%;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 16px;
+        background-color: white;
+        height: 30px;
+        }
+ 
+}
+
+
+.separacion2{
+    background-image: linear-gradient(to right,rgba(12, 12, 65, 0.612),rgb(140, 169, 236));
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    background-color: rgb(12, 25, 55);
+    height:30px;
+    width: 90%;
+    margin: auto;
+    }    
+
+
+/*ANIMACION*/
+
+
+@keyframes ani1 {
+    0%   {background-color:rgb(181, 237, 248);  top:0px;}
+    25%  {background-color:rgb(173, 182, 237);  top:15%;}
+    50%  {background-color:rgb(235, 184, 219);  top:35%;}
+    75%  {background-color:rgb(233, 193, 193); ; top:50%;}
+    100% {background-color:rgb(227, 232, 194); ; top:65%;}
+  }
+  
+  
+  .logos_animacion1 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ani4 {
+    0%   {background-color:rgb(181, 237, 248);  top:50%;}
+    25%  {background-color:rgb(173, 182, 237);  top:65%;}
+    50%  {background-color:rgb(235, 184, 219);  top:0%;}
+    75%  {background-color:rgb(233, 193, 193);  top:15%;}
+    100% {background-color:rgb(227, 232, 194);  top:35%;}
+  }
+  
+  
+  .logos_animacion4 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ani2 {
+    0%   {background-color:rgb(181, 237, 248);  top:15%;}
+    25%  {background-color:rgb(173, 182, 237);  top:35%;}
+    50%  {background-color:rgb(235, 184, 219);  top:50%;}
+    75%  {background-color:rgb(233, 193, 193);  top:65%;}
+    100% {background-color:rgb(227, 232, 194);  top:0%;}
+  }
+  
+  
+  .logos_animacion2 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes ani3 {
+    0%   {background-color:rgb(181, 237, 248);  top:35%;}
+    25%  {background-color:rgb(173, 182, 237);  top:50%;}
+    50%  {background-color:rgb(235, 184, 219);  top:65%;}
+    75%  {background-color:rgb(233, 193, 193); ; top:0%;}
+    100% {background-color:rgb(227, 232, 194); ; top:15%;}
+  }
+  
+  
+  .logos_animacion3 {
+        position: relative;
+    background-color: rgb(127, 178, 220);
+    animation-name: ani3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }  
+
+/*PAGINA DE INICIO*/
+
+article {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    width: 90%;
+    background-color: rgb(12, 25, 55);
+    margin:auto;
+    color: white;
+}
+
+
+.contenedor_grande{
+width: 90%;
+display: flex;
+justify-content:center;
+background-color: rgb(12, 25, 55);
+margin: auto;
+}
+
+.cajacaba {
+    width: 20%;
+    display: flex;
+    justify-content:right;
+    background-color: rgb(12, 25, 55);;
+}
+
+.cajadama {
+    width: 20%;
+    display: flex;
+    justify-content:left;
+    background-color: rgb(12, 25, 55);;
+}
+
+.imgcaba{
+    width:100%
+}
+
+.imgdama{
+    width:100%
+}
+
+/*Navegador*/
+
+
+.caja_nav{
+    background-color: rgb(17, 28, 56);
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: AUTO;
+
+            ul {    
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            list-style-type: none;
+            margin: 10px;
+            padding: 0;
+
+                    li {
+                        border-style: solid;
+                        border-width:2px;
+                        border-color: rgb(241, 243, 199);
+                        display: flex;
+                        width:25%;
+                        text-align: center;
+                        justify-content: center;
+       
+                    }
+            }
+    
+}
+
+a:link {text-decoration: none;
+color: white;}
+a:visited {text-decoration: none;
+color: white;}
+a:hover {text-decoration: none;
+color: white;}
+a:active{text-decoration: none;
+color: white;}
+
+
+
+
+
+
+
+input {margin-left: 11px;
+}
+
+label {margin-left: 11px;
+}
+
+/*footer*/
+
+.contenedor_logosredes {
+    width: 90%;
+    display: grid;
+    grid-template-columns:5% 45% 5% 45% ;
+    grid-template-rows:auto auto auto ;
+    background-color: rgb(17, 28, 56);
+    margin: auto;
+    height:auto;
+    text-align: left;
+
+
+                        .imglogomp {
+                            width: 100%;
+                            height: auto; 
+                        }
+                        
+                        .logoredes {
+                            width: 100%;
+                            height: auto;
+                            }    
+                        
+                        
+                        
+                        .ftexto{
+                                width: 100%;
+                                height: auto;
+                        }    
+                        
+                        
+                        .foottext {
+                            color: white;
+                            font-size:small;
+                            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+                            position: relative; top:25% ;    
+                        }
+     
+    }
+
+@media screen and (max-width:991px) {
+        
+    .foottext {
+        color: rgb(233, 229, 111) ;
+        font-size: medium;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        position: relative; top:10% ;    
+    }
+
+    
+
+    }
+    
+    @media screen and (max-width:768px) {
+
+        
+        .caja_nav ul {    
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+           
+        }
+        
+        .caja_nav ul li {
+            border-style: solid;
+            border-width:2px;
+            border-color: rgb(255, 255, 255);
+            display: flex;
+            width:100%;
+            text-align: center;
+            justify-content: center;
+           
+        }
+
+        .contenedor_logosredes{
+            width: 90%;
+            display: grid;
+            grid-template-columns:20% 80% ;
+            grid-template-rows:auto auto auto ;
+            background-color: rgb(17, 28, 56);
+            margin: auto;
+            height:auto;
+            text-align: left;
+            }
+
+        .caja_portada{display: none;}
+        .caja_logo{width: 50%;}
+        .caja_derecha{width: 50%;}
+        
+    }
+
+/*Nuevo usuario*/
+.cajanuevusu{
+    margin: 30px auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(17, 28, 56);
+    width: 40%;
+    }
+
+form div {margin: 5px auto;
+}
+
+input {width: 250px;
+       justify-content:center; 
+}
+
+label {width: 100px;}
+
+.registrarse {
+    border-style: solid;
+    border-width: 5px;
+   width: max-content;
+    justify-content: center; }
+
+/*Caja productos*/
+
+
+.imgcarr {
+    position: relative; left:40px; 
+}
+
+
+.textoprod {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {background-color: rgb(17, 28, 56);
+width: 90% !important;
+}   
+
+
+
+.cajaformini{
+    width: 90%;
+    border-style: solid;
+    border-width: 2px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;}
+
+
+.mb-3 {margin: 10px;}
+
+.formconta{width: 40%;
+          height: auto;
+          border-style: solid;
+          border-color: blue;
+          border-width: 4px;
+          margin: auto;
+}
+
+.formnuevusu{width: 90%;
+    height: auto;
+    border-style: solid;
+    border-color: blue;
+    border-width: 4px;
+    margin: auto;
+}  

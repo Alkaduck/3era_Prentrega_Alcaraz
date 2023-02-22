@@ -1,0 +1,25 @@
+{
+  "name": "3era_preentrega_alcaraz",
+  "version": "1.0.0",
+  "description": "Proyecto con sass",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alkaduck/3era_Prentrega_Alcaraz.git"
+  },
+  "author": "Nicolas Alcaraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alkaduck/3era_Prentrega_Alcaraz/issues"
+  },
+  "homepage": "https://github.com/Alkaduck/3era_Prentrega_Alcaraz#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
