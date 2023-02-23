@@ -295,7 +295,7 @@ margin: auto;
                         border-width:2px;
                         border-color: rgb(241, 243, 199);
                         display: flex;
-                        width:25%;
+                        width:20%;
                         text-align: center;
                         justify-content: center;
        
@@ -313,17 +313,81 @@ color: white;}
 a:active{text-decoration: none;
 color: white;}
 
+.caja_nav_home{
+    background-color: rgb(17, 28, 56);
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content:flex-end;
+    margin: AUTO;
 
+            ul {    
+            display: flex;
+            width: 50%;
+            justify-content:flex-end;
+            list-style-type: none;
+            margin: 10px;
+            padding: 0;
 
-
-
-
-
-input {margin-left: 11px;
+                    li {
+                        display: flex;
+                        width:20%;
+                        text-align: center;
+                        justify-content: center;
+       
+                    }
+            }
+    
 }
 
-label {margin-left: 11px;
+/*Caja productos*/
+.Caja_productos{
+    margin: auto;
+    padding: auto;
+    width: 90%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+                               .producto1{
+                                   grid-column: 1/2;
+                                   width: 80%;
+                                   margin: 10px auto;
+                                  }     
+                               .producto2{
+                                   grid-column: 2/3;
+                                   width: 80%;
+                                   margin: 10px auto;
+                                  }     
+                                  .producto3{
+                                   grid-column: 1/2;
+                                   width: 80%;
+                                   margin: 10px auto;
+                                  
+                                  }     
+                               .producto4{
+                                   grid-column: 2/3;
+                                   width: 80%;
+                                   margin: 10px auto;
+                                   
+                                  }     
+                                  .producto5{
+                                   grid-column: 1/2;
+                                   width: 80%;
+                                   margin: 10px auto;
+                                  }     
+                               .producto6{
+                                   grid-column: 2/3;
+                                   width: 80%;
+                                   margin: 10px auto;
+                                  }  
+                                  
+                                .textoprod {
+                                    color: rgb(255, 255, 255);
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                }
+                
 }
+
 
 /*footer*/
 
@@ -420,71 +484,40 @@ label {margin-left: 11px;
     }
 
 /*Nuevo usuario*/
-.cajanuevusu{
+.caja_nuevo_usu{
     margin: 30px auto;
     border-style: solid;
     border-width: 5px;
     border-color: rgb(17, 28, 56);
-    width: 40%;
+    width: 70%;
+    padding: 15px;
     }
 
-form div {margin: 5px auto;
-}
+/*Carrito*/
 
-input {width: 250px;
-       justify-content:center; 
-}
-
-label {width: 100px;}
-
-.registrarse {
+.caja_costos{
+    width: 80%;
     border-style: solid;
-    border-width: 5px;
-   width: max-content;
-    justify-content: center; }
-
-/*Caja productos*/
-
-
-.imgcarr {
-    position: relative; left:40px; 
+    border-width: 1px;
+    border-color: rgb(17, 28, 56);
 }
 
-
-.textoprod {
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.container {background-color: rgb(17, 28, 56);
-width: 90% !important;
-}   
-
-
-
-.cajaformini{
-    width: 90%;
+.titulo_carrito{width: 80%;
     border-style: solid;
-    border-width: 2px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;}
+    border-width: 1px;
+    border-color: rgb(17, 28, 56);}
 
 
-.mb-3 {margin: 10px;}
 
-.formconta{width: 40%;
-          height: auto;
-          border-style: solid;
-          border-color: blue;
-          border-width: 4px;
-          margin: auto;
-}
 
-.formnuevusu{width: 90%;
-    height: auto;
-    border-style: solid;
-    border-color: blue;
-    border-width: 4px;
-    margin: auto;
-}  
+
+
+
+
+
+
+
+
+
+
+

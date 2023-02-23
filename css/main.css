@@ -258,7 +258,7 @@ article {
       border-width: 2px;
       border-color: #f1f3c7;
       display: flex;
-      width: 25%;
+      width: 20%;
       text-align: center;
       justify-content: center; }
 
@@ -278,11 +278,60 @@ a:active {
   text-decoration: none;
   color: white; }
 
-input {
-  margin-left: 11px; }
+.caja_nav_home {
+  background-color: #111c38;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin: AUTO; }
+  .caja_nav_home ul {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0; }
+    .caja_nav_home ul li {
+      display: flex;
+      width: 20%;
+      text-align: center;
+      justify-content: center; }
 
-label {
-  margin-left: 11px; }
+/*Caja productos*/
+.Caja_productos {
+  margin: auto;
+  padding: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%; }
+  .Caja_productos .producto1 {
+    grid-column: 1/2;
+    width: 80%;
+    margin: 10px auto; }
+  .Caja_productos .producto2 {
+    grid-column: 2/3;
+    width: 80%;
+    margin: 10px auto; }
+  .Caja_productos .producto3 {
+    grid-column: 1/2;
+    width: 80%;
+    margin: 10px auto; }
+  .Caja_productos .producto4 {
+    grid-column: 2/3;
+    width: 80%;
+    margin: 10px auto; }
+  .Caja_productos .producto5 {
+    grid-column: 1/2;
+    width: 80%;
+    margin: 10px auto; }
+  .Caja_productos .producto6 {
+    grid-column: 2/3;
+    width: 80%;
+    margin: 10px auto; }
+  .Caja_productos .textoprod {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 /*footer*/
 .contenedor_logosredes {
@@ -351,65 +400,23 @@ label {
     width: 50%; } }
 
 /*Nuevo usuario*/
-.cajanuevusu {
+.caja_nuevo_usu {
   margin: 30px auto;
   border-style: solid;
   border-width: 5px;
   border-color: #111c38;
-  width: 40%; }
+  width: 70%;
+  padding: 15px; }
 
-form div {
-  margin: 5px auto; }
-
-input {
-  width: 250px;
-  justify-content: center; }
-
-label {
-  width: 100px; }
-
-.registrarse {
+/*Carrito*/
+.caja_costos {
+  width: 80%;
   border-style: solid;
-  border-width: 5px;
-  width: max-content;
-  justify-content: center; }
+  border-width: 1px;
+  border-color: #111c38; }
 
-/*Caja productos*/
-.imgcarr {
-  position: relative;
-  left: 40px; }
-
-.textoprod {
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-
-.container {
-  background-color: #111c38;
-  width: 90% !important; }
-
-.cajaformini {
-  width: 90%;
+.titulo_carrito {
+  width: 80%;
   border-style: solid;
-  border-width: 2px;
-  margin: 50px auto;
-  display: flex;
-  justify-content: center; }
-
-.mb-3 {
-  margin: 10px; }
-
-.formconta {
-  width: 40%;
-  height: auto;
-  border-style: solid;
-  border-color: blue;
-  border-width: 4px;
-  margin: auto; }
-
-.formnuevusu {
-  width: 90%;
-  height: auto;
-  border-style: solid;
-  border-color: blue;
-  border-width: 4px;
-  margin: auto; }
+  border-width: 1px;
+  border-color: #111c38; }
