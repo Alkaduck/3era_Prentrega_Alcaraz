@@ -330,6 +330,8 @@ a:active {
     width: 80%;
     margin: 10px auto; }
   .Caja_productos .textoprod {
+    width: 100%;
+    font-size: medium;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
@@ -368,6 +370,12 @@ a:active {
     top: 10%; } }
 
 @media screen and (max-width: 768px) {
+  .caja_header .caja_portada {
+    display: none; }
+  .caja_header .caja_logo {
+    width: 50%; }
+  .caja_header .caja_derecha {
+    width: 50%; }
   .caja_nav ul {
     display: flex;
     flex-direction: column;
@@ -375,14 +383,35 @@ a:active {
     justify-content: center;
     list-style-type: none;
     padding: 0; }
-  .caja_nav ul li {
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
+    .caja_nav ul li {
+      border-style: solid;
+      border-width: 2px;
+      border-color: white;
+      display: flex;
+      width: 100%;
+      text-align: center;
+      justify-content: center; }
+  .caja_nav_home {
+    background-color: #111c38;
+    width: 90%;
+    height: auto;
     display: flex;
-    width: 100%;
-    text-align: center;
-    justify-content: center; }
+    margin: AUTO; }
+    .caja_nav_home ul {
+      display: flex;
+      width: 100%;
+      list-style-type: none;
+      margin: 10px;
+      padding: 0; }
+      .caja_nav_home ul li {
+        display: flex;
+        width: 33%;
+        text-align: center;
+        justify-content: center; }
+  .textoprod {
+    font-size: small;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .contenedor_logosredes {
     width: 90%;
     display: grid;
@@ -391,13 +420,7 @@ a:active {
     background-color: #111c38;
     margin: auto;
     height: auto;
-    text-align: left; }
-  .caja_portada {
-    display: none; }
-  .caja_logo {
-    width: 50%; }
-  .caja_derecha {
-    width: 50%; } }
+    text-align: left; } }
 
 /*Nuevo usuario*/
 .caja_nuevo_usu {

@@ -382,6 +382,8 @@ color: white;}
                                   }  
                                   
                                 .textoprod {
+                                    width: 100%;
+                                    font-size: medium;
                                     color: rgb(255, 255, 255);
                                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                                 }
@@ -443,28 +445,67 @@ color: white;}
     }
     
     @media screen and (max-width:768px) {
+        
+        .caja_header{
+                     .caja_portada{display: none;}
+                     .caja_logo{width: 50%;}
+                     .caja_derecha{width: 50%;}
+        }
+        .caja_nav {
+                    ul {    
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    justify-content: center;
+                    list-style-type: none;
+                    padding: 0;
 
-        
-        .caja_nav ul {    
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            justify-content: center;
-            list-style-type: none;
-            padding: 0;
-           
-        }
-        
-        .caja_nav ul li {
-            border-style: solid;
-            border-width:2px;
-            border-color: rgb(255, 255, 255);
-            display: flex;
-            width:100%;
-            text-align: center;
-            justify-content: center;
-           
-        }
+                                li {
+                                    border-style: solid;
+                                    border-width:2px;
+                                    border-color: rgb(255, 255, 255);
+                                    display: flex;
+                                    width:100%;
+                                    text-align: center;
+                                    justify-content: center;
+                                   
+                                                }
+                                
+                    }
+                }
+         
+            .caja_nav_home{
+                background-color: rgb(17, 28, 56);
+                width: 90%;
+                height: auto;
+                display: flex;
+                               margin: AUTO;
+            
+                        ul {    
+                        display: flex;
+                        width:100%;
+                        list-style-type: none;
+                        margin: 10px;
+                        padding: 0;
+            
+                                li {
+                                    display: flex;
+                                    width:33%;
+                                    text-align: center;
+                                    justify-content: center;
+                   
+                                }
+                        }
+                
+            }
+
+            .textoprod {
+                
+                font-size: small;
+                color: rgb(255, 255, 255);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
 
         .contenedor_logosredes{
             width: 90%;
@@ -477,9 +518,7 @@ color: white;}
             text-align: left;
             }
 
-        .caja_portada{display: none;}
-        .caja_logo{width: 50%;}
-        .caja_derecha{width: 50%;}
+        
         
     }
 
@@ -502,10 +541,12 @@ color: white;}
     border-color: rgb(17, 28, 56);
 }
 
-.titulo_carrito{width: 80%;
+.titulo_carrito {
+    width: 80%;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(17, 28, 56);}
+    border-color: rgb(17, 28, 56); 
+             }
 
 
 
