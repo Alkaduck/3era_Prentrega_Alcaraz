@@ -408,10 +408,41 @@ a:active {
         width: 33%;
         text-align: center;
         justify-content: center; }
-  .textoprod {
-    font-size: small;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .Caja_productos {
+    margin: auto;
+    padding: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 100%; }
+    .Caja_productos .producto1 {
+      grid-column: 1/2;
+      width: 80%;
+      margin: 10px auto; }
+    .Caja_productos .producto2 {
+      grid-column: 1/2;
+      width: 80%;
+      margin: 10px auto; }
+    .Caja_productos .producto3 {
+      grid-column: 1/2;
+      width: 80%;
+      margin: 10px auto; }
+    .Caja_productos .producto4 {
+      grid-column: 1/2;
+      width: 80%;
+      margin: 10px auto; }
+    .Caja_productos .producto5 {
+      grid-column: 1/2;
+      width: 80%;
+      margin: 10px auto; }
+    .Caja_productos .producto6 {
+      grid-column: 1/2;
+      width: 80%;
+      margin: 10px auto; }
+    .Caja_productos .textoprod {
+      width: 100%;
+      font-size: small;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .contenedor_logosredes {
     width: 90%;
     display: grid;

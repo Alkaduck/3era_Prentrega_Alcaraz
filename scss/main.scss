@@ -499,12 +499,55 @@ color: white;}
                 
             }
 
-            .textoprod {
-                
-                font-size: small;
-                color: rgb(255, 255, 255);
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            }
+         
+            .Caja_productos{
+                margin: auto;
+                padding: auto;
+                width: 90%;
+                display:grid;
+                grid-template-columns: 100%;
+            
+                                           .producto1{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                           .producto2{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                              .producto3{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              
+                                              }     
+                                           .producto4{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                               
+                                              }     
+                                              .producto5{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                           .producto6{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }  
+                                              
+                                            .textoprod {
+                                                width: 100%;
+                                                font-size: small;
+                                                color: rgb(255, 255, 255);
+                                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            }
+                                        }            
+
 
 
         .contenedor_logosredes{
