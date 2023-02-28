@@ -1,0 +1,133 @@
+@media screen and (max-width:991px) {
+        
+    .foottext {
+        color: rgb(233, 229, 111) ;
+        font-size: medium;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        position: relative; top:10% ;    
+    }
+
+    
+
+    }
+    
+    @media screen and (max-width:768px) {
+        
+        .caja_header{
+                     .caja_portada{display: none;}
+                     .caja_logo{width: 50%;}
+                     .caja_derecha{width: 50%;}
+        }
+        .caja_nav {
+                    ul {    
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    justify-content: center;
+                    list-style-type: none;
+                    padding: 0;
+
+                                li {
+                                    border-style: solid;
+                                    border-width:2px;
+                                    border-color: rgb(255, 255, 255);
+                                    display: flex;
+                                    width:100%;
+                                    text-align: center;
+                                    justify-content: center;
+                                   
+                                                }
+                                
+                    }
+                }
+         
+            .caja_nav_home{
+                background-color: rgb(17, 28, 56);
+                width: 90%;
+                height: auto;
+                display: flex;
+                               margin: AUTO;
+            
+                        ul {    
+                        display: flex;
+                        width:100%;
+                        list-style-type: none;
+                        margin: 10px;
+                        padding: 0;
+            
+                                li {
+                                    display: flex;
+                                    width:33%;
+                                    text-align: center;
+                                    justify-content: center;
+                   
+                                }
+                        }
+                
+            }
+
+         
+            .Caja_productos{
+                margin: auto;
+                padding: auto;
+                width: 90%;
+                display:grid;
+                grid-template-columns: 100%;
+            
+                                           .producto1{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                           .producto2{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                              .producto3{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              
+                                              }     
+                                           .producto4{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                               
+                                              }     
+                                              .producto5{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }     
+                                           .producto6{
+                                               grid-column: 1/2;
+                                               width: 80%;
+                                               margin: 10px auto;
+                                              }  
+                                              
+                                            .textoprod {
+                                                width: 100%;
+                                                font-size: small;
+                                                color: rgb(255, 255, 255);
+                                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            }
+                                        }            
+
+
+
+        .contenedor_logosredes{
+            width: 90%;
+            display: grid;
+            grid-template-columns:20% 80% ;
+            grid-template-rows:auto auto auto ;
+            background-color: rgb(17, 28, 56);
+            margin: auto;
+            height:auto;
+            text-align: left;
+            }
+
+        
+        
+    }

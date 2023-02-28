@@ -1,0 +1,42 @@
+/*PAGINA DE INICIO*/
+
+article {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    width: 90%;
+    background-color: rgb(12, 25, 55);
+    margin:auto;
+    color: white;
+}
+
+
+.contenedor_grande{
+width: 90%;
+display: flex;
+justify-content:center;
+background-color: rgb(12, 25, 55);
+margin: auto;
+}
+
+.cajacaba {
+    width: 20%;
+    display: flex;
+    justify-content:right;
+    background-color: rgb(12, 25, 55);;
+}
+
+.cajadama {
+    width: 20%;
+    display: flex;
+    justify-content:left;
+    background-color: rgb(12, 25, 55);;
+}
+
+.imgcaba{
+    width:100%
+}
+
+.imgdama{
+    width:100%
+}
