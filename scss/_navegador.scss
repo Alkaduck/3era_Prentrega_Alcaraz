@@ -2,7 +2,7 @@
 
 
 .caja_nav{
-    background-color: rgb(17, 28, 56);
+    background-color:$colorsecundario;
     width: 90%;
     height: auto;
     display: flex;
@@ -20,7 +20,7 @@
                     li {
                         border-style: solid;
                         border-width:2px;
-                        border-color: rgb(241, 243, 199);
+                        border-color: $colordefondo;
                         display: flex;
                         width:20%;
                         text-align: center;
@@ -41,7 +41,7 @@ a:active{text-decoration: none;
 color: white;}
 
 .caja_nav_home{
-    background-color: rgb(17, 28, 56);
+    background-color:$colorsecundario;
     width: 90%;
     height: auto;
     display: flex;

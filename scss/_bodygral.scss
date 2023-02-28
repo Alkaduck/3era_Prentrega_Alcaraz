@@ -4,5 +4,6 @@
     box-sizing: border-box;
 }
 
-body {background-color: rgb(241, 243, 199);
-margin: auto;}
+body {
+    background-color: $colordefondo;
+    margin: auto;}
