@@ -1,7 +1,7 @@
 /*footer*/
 
 .contenedor_logosredes {
-    width: 90%;
+    width: $ancho90porc;
     display: grid;
     grid-template-columns:5% 45% 5% 45% ;
     grid-template-rows:auto auto auto ;

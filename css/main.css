@@ -429,7 +429,8 @@ article {
         display: flex;
         width: 33%;
         text-align: center;
-        justify-content: center; }
+        justify-content: center;
+        font-size: 22px; }
   .Caja_productos {
     margin: auto;
     padding: auto;
@@ -473,4 +474,11 @@ article {
     background-color: #0c1937;
     margin: auto;
     height: auto;
-    text-align: left; } }
+    text-align: left;
+    font-size: xx-large; }
+    .contenedor_logosredes .foottext {
+      color: white;
+      font-size: 22px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      position: relative;
+      top: 25%; } }

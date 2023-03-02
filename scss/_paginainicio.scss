@@ -4,7 +4,7 @@ article {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
-    width: 90%;
+    width: $ancho90porc;
     background-color: rgb(12, 25, 55);
     margin:auto;
     color: white;
@@ -12,7 +12,7 @@ article {
 
 
 .contenedor_grande{
-width: 90%;
+width: $ancho90porc;
 display: flex;
 justify-content:center;
 background-color:$colorsecundario;
