@@ -1,10 +1,18 @@
-.caja_contacto {
+.caja_contacto {margin: auto;
+                border-style: solid;
+                border-width: 10px;
                 width: $ancho90porc;
-                border-style: solid; 
-                border-width: 3px;
-                border-color: $colorsecundario;   
+                border-color: $colorsecundario;
+                                                .formconta{ margin: auto;                
 
-                                                   .campos_contacto {
-                                                       width: 75%;
-                                                   }
-}
+                                                                                   .campos_contacto {
+                                                                                            margin:auto;    
+                                                                                            width: 75%;
+                                                                                
+                                                                                
+                                                                                                            textarea {width: 100%;
+                                                                                                                      height: 100px; 
+                                                                                                                         }
+                                                                                   }
+                                                        }
+                }                                                        
